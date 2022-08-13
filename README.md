@@ -22,7 +22,7 @@ Abstract will be added on a later date. This repository includes the following f
 * List of 109 important genes found with RFE
 
 ## laml_data.zip
-* Zip file including the gene expression data set laml.csv
+* Zip file including the gene expression data (laml.csv)
 
 ## laml_tuning.R
 * Oversampling with SMOTE and ADASYN
