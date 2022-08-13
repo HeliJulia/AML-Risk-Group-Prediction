@@ -11,7 +11,7 @@ This repository includes the following supplementary files.
 * *batch_size*: number of training samples for each epoch
 
 ## important_genes.txt
-* List of 109 important genes found with RFE
+* List of 109 genes selected with RFE
 
 ## laml_data.zip
 * Zip file including the gene expression data (laml.csv)
