@@ -1,10 +1,10 @@
 
 
-# Predicting Risk Category from Genes
-# LAML MODEL TUNING
+
+# NETWORKS WITH RFE
 # Heli Leskelä
 # University of Oulu
-# July 2022
+# August 2022
 
 
 # Packages ---------------------------------------------------------------------
@@ -330,16 +330,4 @@ models_df %>%
 write.table(best_poor_rfe[1:10,], file = "best_poor_rfe.txt", sep = " & ", row.names = FALSE)
 
 
-
-
-models_df %>% group_by(method) %>% arrange(desc(accuracy)) %>% slice_head(n = 1) -> best_acc
-models_df %>% group_by(method) %>% arrange(desc(f1_fav)) %>% slice_head(n = 1) -> best_fav
-models_df %>% group_by(method) %>% arrange(desc(f1_norm)) %>% slice_head(n = 1) -> best_norm
-models_df %>% group_by(method) %>% arrange(desc(f1_poor)) %>% slice_head(n = 1) -> best_poor
-
-
-best_acc %>% arrange(desc(accuracy)) %>% as.data.frame()
-best_fav %>% arrange(desc(f1_fav))  %>% as.data.frame()
-best_norm %>% arrange(desc(f1_norm))  %>% as.data.frame()
-best_poor %>% arrange(desc(f1_poor))  %>% as.data.frame()
 
