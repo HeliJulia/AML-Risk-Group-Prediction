@@ -10,25 +10,8 @@ Abstract will be added on a later date. This repository includes the following f
 * *lr*: the learning rate
 * *batch_size*: number of training samples for each epoch
 
-
-## data_preparation.R
-* New variable creation
-* Division to training and test sets
-
-## feature_selection.R
-* RFE to reduce dimensions
-
 ## important_genes.txt
 * List of 109 important genes found with RFE
 
 ## laml_data.zip
 * Zip file including the gene expression data (laml.csv)
-
-## laml_tuning.R
-* Oversampling with SMOTE and ADASYN
-* Tuning the network
-
-## laml_tuning_rfe.R
-* Feature selection with RFE
-* Oversampling with SMOTE and ADASYN
-* Tuning the network
