@@ -14,4 +14,4 @@ This repository includes the following supplementary files.
 * List of 109 genes selected with RFE
 
 ## laml_data.zip
-* Zip file including the gene expression data (laml.csv)
+* A zip file including the gene expression data (laml.csv)
