@@ -1,6 +1,6 @@
 # Acute Myeloid Leukemia Risk Group Prediction from Gene Expression Data with Feed-Forward Neural Networks
 
-Abstract will be added on a later date. This repository includes the following files
+This repository includes the following supplementary files.
 
 ## config_set.txt
 * 100 randomly chosen network configurations
