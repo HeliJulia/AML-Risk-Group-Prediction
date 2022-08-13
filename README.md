@@ -13,7 +13,7 @@ Abstract will be added on a later date. This repository includes the following f
 
 ## data_preparation.R
 * New variable creation
-* separation to training and test sets
+* Division to training and test sets
 
 ## feature_selection.R
 * RFE to reduce dimensions
